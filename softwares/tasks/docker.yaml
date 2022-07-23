@@ -1,0 +1,7 @@
+---
+- name: creating docker
+  command: yum install docker -y
+- name: enable docker
+  command: systemctl enable docker
+- name: start docker
+  command: systemctl start docker   

@@ -1,0 +1,4 @@
+---
+# tasks file for softwares
+- include_tasks: docker.yaml
+- include_tasks: kubectl.yaml  
